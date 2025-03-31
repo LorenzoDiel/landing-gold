@@ -4,7 +4,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  color: rgb(7, 8, 28);
+  color: rgb(241, 233, 233);
 }
 
 .content {
@@ -23,6 +23,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  color: rgb(241, 233, 233);
 }
 
 .loadWsp {
@@ -80,6 +81,11 @@ footer {
   text-align: center;
   color: rgb(241, 233, 233);
   background-color: grey;
+}
+
+.contentTitulo {
+  color: rgb(241, 233, 233);
+  font-size: larger;
 }
 
 /*# sourceMappingURL=styles.css.map */

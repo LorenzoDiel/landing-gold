@@ -6,7 +6,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    color:rgb(7, 8, 28)
+    color: $color-texto-primario
 }
 
 .contenedor{
@@ -15,7 +15,7 @@ body {
 
 .content{
     @include apply-styles($display-center);
-    background-image: url("../assets/fondo.jpg");
+    background-image: url("../assets/background.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -23,6 +23,7 @@ body {
 
 .contentBanner{
     @include apply-styles($display-center);
+    color: $color-texto-primario;
 }
 
 
@@ -69,3 +70,7 @@ footer{
     background-color: $color-footer;
 }
 
+.contentTitulo {
+    color: $color-texto-primario;
+    font-size: larger;
+}
